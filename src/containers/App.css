@@ -13,3 +13,10 @@ h1{
 	color: #0ccac4;
 	letter-spacing: 0.3125rem;
 }
+
+@media (max-width: 425px) {
+	.title{
+		letter-spacing: normal;
+		font-size: 2.2rem;
+	}
+}
